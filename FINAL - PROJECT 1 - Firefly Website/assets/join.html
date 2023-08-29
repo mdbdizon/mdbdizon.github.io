@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page: Save the Fireflies Today</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="box"> 
+             <video autoplay muted loop>
+                  <source src="FIREFLIES-HEADER (lower mb).mp4" type="video/mp4">
+             </video>
+                
+            
+            <h2 class="banner-title">About Us</h2>
+            <nav class="nav-container">
+                <ul>
+                    <li><a href="../index.html"><button class="btn home">Home</button></a></li>
+                    <li><a href="learn.html"><button class="btn learn">Learn</button></a></li>
+                    <li><a href="join.html"><button class="btn join">Join</button></a></li>
+
+        <div class="org-name">
+         <p id= "save-the-white">Save the</id>
+         <p id= "fireflies-yellow">Fireflies</id></p><p id= "today-org-white">Today.org</id></p>
+        </div>
+
+            <div class= "donate-now">DONATE NOW</div>
+                    
+             </ul>
+           </nav>
+        </div>
+    </header>
+
+    <img class="banner-background">
+           
+
+    <main>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" class="default-input" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="default-input" required placeholder="youremail@domain.com">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" class="default-input" required placeholder="(xx)xxxxxxxx">
+
+            <label for="message">Message:</label>
+            <textarea cols="70" rows="10" id="message" class="default-input" required> </textarea>
+
+            <fieldset class="typecontact">
+                <legend>How would you like to be contacted?</legend>
+                <label for="radio-email"><input type="radio" name="typecontact" value="Email"
+                        id="radio-email">Email</label>
+                <label for="radio-phone"><input type="radio" name="typecontact" value="Phone"
+                        id="radio-phone">Phone</label>
+                <label for="radio-whatsapp"><input type="radio" name="typecontact" value="Whatsapp"
+                        id="radio-whatsapp">Whatsapp</label>
+            </fieldset>
+
+            <fieldset class="contact-time">
+                <legend>How to be involved?</legend>
+                <select>
+                    <option>Donation</option>
+                    <option>On field occular</option>
+                    <option>As a research contributor</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Would you like to subscribe to our
+                weekly map update of fireflies' population via email?</label>
+            <input type="submit" value="Send form" class="send">
+
+            <legend class="table">Business hours:</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mon</td>
+                        <td>8h-20h</td>
+                    </tr>
+                    <tr>
+                        <td>Wed</td>
+                        <td>8h-20h</td>
+                    </tr>
+                    <tr>
+                        <td>Fri</td>
+                        <td>8h-20h</td>
+                    </tr>
+                    <tfoot>
+                        <td colspan="2">*Excl public Holidays</td>
+                </tfoot>
+                </tbody>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        <img id="logo" src="FIREFLY-LOGO.png">
+        <p class="copyright">&copy; ANINIPOT PH 2023</p>
+        <p id="rights">All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

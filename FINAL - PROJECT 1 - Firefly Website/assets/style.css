@@ -1,0 +1,613 @@
+body{
+    font-family: 'Preahvihear';
+    font-size: 20px;
+    background-image: url(./assets/GOLD-DUST-PNG.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+header{
+    background: url(./FIREFLIES-HEADER\ \(lower\ mb\).mp4);
+    padding: 0;
+    width: 100%;
+    height: 300px;
+}
+
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 0 0;
+}
+
+video{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* @media (max-width: 768px) {
+    Adjust styles for screens with a maximum width of 768px
+    video {
+      max-width: 100%; Limit width on smaller screens
+      height: auto; Maintain aspect ratio 
+    }
+  } */
+
+
+.org-name{
+    position: absolute;
+    padding: 45px 45px -100px;
+    font-size: 45px;
+    top: -15px;
+    left: 1400px;
+}
+
+.donate-now{
+    position: fixed;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    border: 4px solid rgb(30, 87, 30);
+    box-sizing: border-box;
+    background-color: rgb(30, 87, 30);
+    font-weight: bold;
+    padding: 12px 27px;
+    font-size: 15px;
+    text-align: right;
+    clear: right;
+    float: right;
+    margin: 0;
+    display: block;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#save-the-white{
+    color: #FEFEFE;
+    
+}
+
+#fireflies-yellow{
+    color:#c78c19;
+    
+}
+
+#today-org-white{
+    color: #FEFEFE;
+
+}
+
+.banner-title{
+    color: #FEFEFE;
+}
+
+.nav-container{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    
+}
+
+.btn {
+    border: 5px solid #FEFEFE;
+    background-color: transparent;
+    font-weight: bolder;
+    color: #c78c19;
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Preahvihear';
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;   
+}
+
+.home{
+    border-radius: 12px;
+}
+
+.learn{
+    border-radius: 12px;
+}
+
+.join{
+    border-radius: 12px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 28px;
+}
+
+nav .btn:hover{
+    color: #FEFEFE;
+    transition: color 0.5s ease;
+}
+
+.banner-background{
+    width: 100%;
+    
+}
+
+
+/*--------------- Main content --------------- */
+
+.main{
+    background: #FEFEFE;
+    width: 940px;
+    margin: 5px auto;
+    border: 4px solid #c78c19;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 20px;
+    position: relative;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 30px;
+    clear: left;
+    padding: 15px 5px 1px 10px;
+}
+
+.main-title yellow{
+    color:#c78c19;
+}
+
+.main underline{
+    text-decoration: underline;
+}
+
+.main yellow{
+    color:#c78c19;
+}
+
+.main p{
+    margin: 0 0 1em;
+}
+
+.main strong{
+    font-weight: bold;
+}
+
+.main em{
+    font-style: italic;
+}
+
+.firefly-gif{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0 20px 10px 0;
+    opacity: 1;
+    box-shadow: 10px 10px 30px #000000; 
+}
+
+
+/* ------------------> ABOUT THE FOUNDER <-------------------------- */
+
+.about-us{
+    background: #FEFEFE;
+    width: 940px;
+    margin: 5px auto;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-align: justify;
+    color: #f2c364;
+}
+
+.main-second{
+    position: absolute;
+    font-size: 1.5em;
+    margin: 0 0 30px;
+    padding: 25px 5px 1px 10px;
+    top: 770px;
+    left: 96px;
+}
+
+.main-second strong{
+    font-weight: bolder;
+    color:#c78c19;
+}
+
+.img-ben{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 0 20px 10px 0;
+    opacity: 1;
+    right: 200px;
+    top: 80px;
+    box-shadow: 10px 10px 30px #c78c19;
+}
+
+.column-container{
+    column-count: 3; 
+    column-gap: 15px; 
+    column-width: 10em;
+    line-height: 20.3px;
+    position: relative;
+    right: 190px;
+    top: 100px;
+}
+
+.column-container:hover{
+    opacity: 0.8;
+    color:#f2c364;
+}
+
+.column-container p{
+    margin: 0; 
+    padding: 2px 3px;
+    
+}
+  
+.column-container p:nth-child(1){
+    background-color: #131313;
+    padding: 5px 5px;
+    color:#f2c364;
+}
+  
+.column-container p:nth-child(2){
+    background-color: #131313;
+    padding: 5px 5px;
+    color:#f2c364;
+}
+
+.column-container p:nth-child(3){
+    background-color: #131313;
+    color: #f2c364;
+}
+
+
+
+/*--------------- FUN FACT --------------- */
+
+.fun-fact{
+    position: absolute;
+    right: 250px;
+    width: 500px;
+    height: 700px;
+}
+
+
+.fun-title{
+    font-size: 26px;
+    color: #95680e;
+    font-weight: bold;
+    padding: 8px 0 0 8px;
+
+}
+
+#fun-subtitle{
+    font-size: 19px;
+    color: #5e4006;
+    font-weight: bold;
+    padding: 8px 0 0 8px;
+}
+
+.catch-release-content{
+    font-size: 17px;
+    color: #5e4006;
+    padding: 8px 0 0 8px;
+    line-height: 23px;
+}
+  
+.catch-release-content testing{
+    font-size: 19px;
+    color: #95680e;
+    font-weight: bolder;
+}
+
+.shape-background{
+    position: relative;
+    top: 25px;
+    left: 7em;
+}
+  
+.shape-background::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: #f2c364;
+    clip-path: rectangle(0% 0%, 100% 0%); /* Define the shape */
+    z-index: -1; /* Place the shape behind the text */
+}
+  
+.shape-background .fun-fact{
+    position: relative; /* Make sure text is positioned above the shape */
+    z-index: 1; /* Ensure text appears above the shape */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.fun-firefly-photo{
+    position: absolute;
+    width: 380px;
+    height: 350px;
+    top: -19em;
+    left: 0.4em;
+}
+  
+.ben-video{
+    position: relative;
+    right: 850px;
+    margin: 0.20em auto;
+}
+
+.ben-video:hover{
+    opacity: 0.8;
+}
+
+.caption-ben-video{
+    position: relative;
+    right: 50px;
+    left: 90px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    color: #131313;
+}
+
+
+/*--------------- Conservation Status --------------- */
+
+.conservation-status{
+    padding: 37em 0;
+}
+
+.iucn-title{
+    text-align: center;
+    color: rgb(30, 87, 30);
+    font-weight: 1000;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.iucn-status-list{
+    width: 830px;
+    margin: 0 auto;
+}
+.list-status{
+    position: relative;
+    width:40%;
+    top: 200px;
+    left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+.item-status{
+    line-height: 1.5;
+}
+
+.item-status:first-child{
+    font-weight: bold;
+    color: red;
+}
+
+.img-status{
+    position: absolute;
+    right: 300px;
+    top: 97em;
+    width: 35%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px rgb(30, 87, 30);
+} 
+
+
+/*--------------- Footer --------------- */
+
+footer{
+    text-align: center;
+    background: url(FIREFLY-FOOTER.jpg);
+    max-height: auto;
+    padding: 20px 0 5px;  
+    width: 100%;
+}
+
+#logo{
+    width: 70px;
+    padding: 5px 0 3px;
+}
+
+.copyright{
+    color: #FEFEFE;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+#rights{
+    color: #FEFEFE;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px 0 0;
+    padding: 0 0 10px;
+}
+
+
+
+/*---------------------------------- CSS Learn ------------------------------- */
+
+.learn-page{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.learn-page li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2.5px solid #000000;
+    border-radius: 10px;
+}
+ 
+.learn-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.learn-title level1{
+    color:#000000;
+}
+
+.learn-title level2{
+    color: #000000;
+}
+
+.learn-title level3{
+    color:#E4D00A;
+    font-weight: bolder;
+}
+
+.learn-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.learn-elements{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.light-it-up-gifs{
+    position: relative;
+    width: 180px;
+    height: 170px;
+    padding: 40px;
+    max-height: auto; /* Use this setting for locking image's properties when resizing */
+}
+
+.learn-page li:hover{
+    border-color: #c78c19;
+    border: 2px solid transparent;
+    animation: glow 2s infinite;
+    transform:scale(1.1);
+}
+
+.list-light{
+    border: 4px solid transparent;
+}
+  
+.list-it{
+    border: 4px solid transparent;
+}
+
+.list-up{
+    border: 4px solid transparent;
+}
+
+@keyframes glow{
+    0% {
+      box-shadow: 0 0 5px #f7f960, 0 0 10px #f7f960, 0 0 20px #f7f960;
+    }
+    50% {
+      box-shadow: 0 0 10px #fff400, 0 0 20px #fff400, 0 0 40px #fff400;
+    }
+    100% {
+      box-shadow: 0 0 5px #e3ff00, 0 0 10px #e3ff00, 0 0 20px #e3ff00;
+    }
+}
+
+.learn-page li:active{
+    border-color: rgb(30, 87, 30);
+    color: #c78c19;
+}
+
+
+
+/*---------------------------------- CSS Join ------------------------------- */
+
+form{
+    width: 940px;
+    margin: 40px auto;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.default-input{
+    display: block;
+    margin: 0 0 20px ;
+    padding: 10px 10px;
+    width: 50%;
+    resize: none;
+}
+
+form select{
+    width: 100px;
+    font-size: 15px;
+}
+
+.typecontact label{
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.contact-time{
+    margin: 10px 0;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.send{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: #FEFEFE;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.send:hover{
+    background: red;
+    transform:scale(1.2);
+}
+
+.table{
+    margin: 20px 0 10px;
+}
+
+table{
+    width: 200px;
+    margin: 10px 0px;
+}
+
+thead{
+    background: #888888;
+    color: #FEFEFE;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-size: 15px;
+}
